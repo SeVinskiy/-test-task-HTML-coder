@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>English Club TV</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+
+			<ul>
+				<li><i class="fa fa-caret-down" aria-hidden="true"></i> Catalogs
+					<ul class="invisibleList">
+						<li>Lorem.</li>
+						<li>Esse.</li>
+						<li>Praesentium.</li>
+						<li>Adipisci Excepturi Tenetur.</li>
+						<li>Nemo!</li>
+						<li>At!</li>
+					</ul>
+				</li>
+				<li><i class="fa fa-caret-down" aria-hidden="true"></i> Materials
+						<ul class="invisibleList">
+							<li>Lorem.</li>
+							<li>Tenetur.</li>
+							<li>Atque!</li>
+							<li>Excepturi.</li>
+							<li>Distinctio.</li>
+						</ul>
+				</li>
+				<li>Payment</li>
+				<li><i class="fa fa-caret-down" aria-hidden="true"></i> Statistics
+						<ul class="invisibleList">
+							<li>Lorem.</li>
+							<li>Fugiat.</li>
+							<li>Eius?</li>
+						</ul>
+				</li>
+				<li><i class="fa fa-caret-down" aria-hidden="true"></i> Users
+					<ul class="invisibleList">
+						<li>Lorem.</li>
+						<li>Aperiam.</li>
+						<li>Placeat.</li>
+						<li>Eveniet.</li>
+					</ul>
+				</li>
+			</ul>
+
+			<span>
+				<i class="fa fa-bars openMenu" aria-hidden="true"></i>
+				<i class="fa fa-times-circle closeMenu" aria-hidden="true"></i>
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<i class="fa fa-cog" aria-hidden="true"></i>
+			</span>
+
+		</div>
+	</header>
+
+	<section class="routeInfo container">
+		<div class="routeText">
+			<p><span class="underline">Revision</span> &#62; <span> Grammar test &#8216;<span class="inBrackets">Matching word+picture</span>&#8217;</span></p>
+		</div>
+		<div class="crossChoice">
+			<div class="firstCross">
+				<i class="fa fa-plus" aria-hidden="true"></i>
+				<p>Test</p>
+			</div>
+			<div class="secondCross">
+				<i class="fa fa-plus" aria-hidden="true"></i>
+				<p>Pulse check</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- к сожалению не получил ответ касательно того, что все таки помещать внутрь droptarget -->
+	<!-- <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Drag me into the line down</p> -->
+
+	<section id="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)" class="progressLine container">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</section>
+
+	<section class="blackboard container">
+		<div class="imgSpace">
+			<div class="label1 answer"><p>Cabbage</p></div>
+			<div class="label2 answer"><p>Carrot</p></div>
+			<div class="label3 answer"><p>Apple</p></div>
+			<div class="imgContainer">
+				<div><img src="img/resurs1.png" alt="здесь должно быть изображение"></div>
+				<div><img src="img/resurs2.png" alt="здесь должно быть изображение"></div>
+				<div><img src="img/resurs3.png" alt="здесь должно быть изображение"></div>
+			</div>
+		</div>
+		<div class="practiceSpace">
+			<ul>
+
+				<li class="headPractice">
+					<div class="typePractice">
+						<p>Grammar</p>
+					</div>
+					<div class="userSelection">
+						<p>Matching w+p <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+					</div>
+					<div class="status">
+						<i class="fa fa-check active" aria-hidden="true"></i>
+					</div>
+				</li>
+
+				<li class="noActive">
+					<img src="img/emptyBlueIMG.png" alt="">
+					<input type="text" value="Name">
+					<span><i class="fa fa-times" aria-hidden="true"></i></span>
+				</li>
+
+				<li>
+					<img src="img/emptyBlueIMG.png" alt="">
+					<input type="text" value="Balco |" autofocus>
+					<span><i class="fa fa-times active" aria-hidden="true"></i></span>
+				</li>
+
+				<li>
+					<img src="img/emptyBlueIMG.png" alt="">
+					<input type="text" value="Balcony">
+					<span><i class="fa fa-times active" aria-hidden="true"></i></span>
+				</li>
+
+				<li class="addPractice">
+					<i class="fa fa-plus" aria-hidden="true"></i>
+					<p>New</p>
+				</li>
+		</ul>
+		</div>
+	</section>
+
+<script type="text/javascript" src="libs/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
